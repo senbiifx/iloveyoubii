@@ -134,7 +134,7 @@ body {
   background-color: #fff;
   width: 250px;
   height:350px;
-  z-index:-1;
+  z-index:-999;
   left:0;
   top:0;
   box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
