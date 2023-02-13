@@ -28,13 +28,14 @@ body {
 
 .birthdayCard .cardFront {
   transform: rotateY(-20deg); 
-  -webkit-transform: rotateY(-20deg); 
+  -webkit-transform: rotateY(-20deg);
+  z-index:-1; 
 }
 
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg); 
   -webkit-transform: rotateY(-160deg); 
-  z-index:-999;
+  z-index:-1;
 }
 
 .birthdayCard:hover .happy {
