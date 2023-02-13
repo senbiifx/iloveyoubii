@@ -186,7 +186,7 @@ body {
 
 body .overlay {
   background-color: rgba(0,0,0,0.5);
-  position: fixed;
+  position: absolute;
   display: none;
   height: 100%;
   width: 100%;
