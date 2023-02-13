@@ -16,20 +16,24 @@ body {
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
+  -webkit-transform: perspective(2500px);
   transition: 1s;
 }
 
 .birthdayCard:hover {
+  -webkit-transform: perspective(2500px) rotate(5deg);
   transform: perspective(2500px) rotate(5deg);
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
 }
 
 .birthdayCard .cardFront {
   transform: rotateY(-20deg); 
+  -webkit-transform: rotateY(-20deg); 
 }
 
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg); 
+  -webkit-transform: rotateY(-160deg); 
 }
 
 .birthdayCard:hover .happy {
