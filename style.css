@@ -34,6 +34,7 @@ body {
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg); 
   -webkit-transform: rotateY(-160deg); 
+  z-index:-999;
 }
 
 .birthdayCard:hover .happy {
@@ -45,7 +46,7 @@ body {
   background-color: #fff;
   width: 250px;
   height:350px;
-  overflow: visible;
+  overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 30px 0 50px rgba(0,0,0,0.4);
   transition: .6s;
