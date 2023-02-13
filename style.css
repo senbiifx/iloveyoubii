@@ -208,9 +208,9 @@ body .drawBox {
   width: 100%;
   max-height: 330px;
   max-width: 330px;
-  z-index: 999  ;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  z-index: 999;
   cursor: pointer;
   margin-top: 10%;
   margin-left: auto;
