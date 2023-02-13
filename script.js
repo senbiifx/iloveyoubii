@@ -65,8 +65,10 @@ function smallHeartAnim() {
 
 function on() {
   document.getElementById("overlay").style.display = "block";
+  document.getElementById("birthdayCard").style.display = "none";
 }
 
 function off() {
   document.getElementById("overlay").style.display = "none";
+  document.getElementById("birthdayCard").style.display = "block";
 }
